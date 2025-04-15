@@ -52,12 +52,11 @@ php -v
 Contoh output: PHP 8.1.10 (cli) (built: Aug  1 2022 20:17:19)
 
 ```
-![Packagist.org](images/TerminalPhp.png)
 
 ### ✅ 4. Instal Composer
 
 - Unduh Composer dari [https://getcomposer.org](https://getcomposer.org)
-  ![Packagist.org](images/Composer.png)
+  
 - Instal seperti biasa (pastikan memilih path PHP dari Laragon saat instalasi)
 
 Contoh path PHP jika menggunakan laragon:
@@ -78,7 +77,7 @@ Contoh output:
 Composer version 2.x.x
 ```
 
-![Packagist.org](images/TerminalComposer.png)
+
 
 ### ✅ 5. Atur PATH PHP (Jika Diperlukan)
 
@@ -87,11 +86,10 @@ Jika `php -v` tidak berfungsi atau menunjukkan versi yang salah:
 - klik **windows + s**
 - Ketik **environment variabel** buka lalu buka **environment variabel**
 
-![Packagist.org](images/Environment.png)
+
 
 - Klik **Path** terlebih dahulu lalu klik **edit**
 
-![Packagist.org](images/Environment2.png)
 
 - Klik **new**
 
@@ -101,7 +99,6 @@ Jika `php -v` tidak berfungsi atau menunjukkan versi yang salah:
   C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\
   ```
 
-![Packagist.org](images/Environment3.png)
 
 - Klik **ok** pada semua jendela environment variabel sampai semuanya terutup kembali
 
@@ -123,7 +120,6 @@ Contoh:
 composer create-project laravel/laravel kuliah-framework
 ```
 
-![Packagist.org](images/InstallLaravel.png)
 
 - Klik **Enter** lalu tunggu sampai selesai
 
@@ -138,7 +134,7 @@ Jalankan perintah ini di terminal
 php artisan serve
 ```
 
-![Packagist.org](images/JalankanLaravel.png)
+
 
 Buka browser dan akses:
 
@@ -146,7 +142,7 @@ Buka browser dan akses:
 http://127.0.0.1:8000
 ```
 
-![Packagist.org](images/JalankanLaravel2.png)
+
 
 Jika halaman welcome Laravel muncul, maka instalasi berhasil ✅
 
@@ -170,7 +166,6 @@ C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.ini
 
 - Atau lebih mudah bisa mencari file **php.ini** dengan membuka laragon klik menu, klik php, dan klik php.ini
 
-![Packagist.org](images/phpini.png)
 
 ```
 ;extension=openssl
@@ -181,7 +176,6 @@ C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.ini
 - klik **"ctrl" + "f"** untuk mencari ketiga ekstensi terbut
 - hapus **";"** pada 3 ekstensi tersebut lalu save dan close
 
-![Packagist.org](images/phpini2.png)
 
 - `php artisan` adalah antarmuka command line Laravel
 - Folder `vendor/` berisi semua paket yang diinstal melalui Composer
