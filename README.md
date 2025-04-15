@@ -1,41 +1,64 @@
-# 📘 Panduan Instalasi Laravel (Windows)
+# Panduan Instalasi Laravel di Windows
 
-## 📌 Apa itu Laravel?
-
-Laravel adalah salah satu framework PHP paling populer dan powerful yang digunakan untuk membangun aplikasi web modern secara cepat, elegan, dan efisien. Dibangun dengan prinsip MVC (Model-View-Controller), Laravel menyediakan berbagai fitur bawaan seperti routing, sistem autentikasi, manajemen database dengan Eloquent ORM, templating dengan Blade, sistem migrasi, serta Artisan CLI yang mempermudah pengembangan.
-
-Laravel juga didukung oleh ekosistem yang luas seperti Laravel Mix, Sanctum, dan Jetstream, serta komunitas yang aktif, sehingga sangat ideal untuk proyek skala kecil hingga besar.
-
----
-
-## 🔧 Kebutuhan Instalasi
-
-| Alat                   | Kegunaan                                                                      |
-| ---------------------- | ----------------------------------------------------------------------------- |
-| **Visual Studio Code** | Code editor yang digunakan untuk menjalankan Laravel                          |
-| **PHP**                | Bahasa pemrograman utama yang digunakan Laravel                               |
-| **Composer**           | Manajer dependensi untuk PHP, digunakan untuk menginstal Laravel dan paketnya |
-| **Laragon**            | Lingkungan server lokal ringan yang sudah termasuk PHP, MySQL, dll            |
-| **Git** _(opsional)_   | Sistem kontrol versi, sering dibutuhkan oleh Composer saat mengunduh paket    |
+## 📚 Daftar Isi
+- [Pengenalan Laravel](#-apa-itu-laravel)
+- [Persyaratan Sistem](#-persyaratan-sistem)
+- [Langkah Instalasi](#-langkah-instalasi)
+  - [1. Instal Visual Studio Code](#-1-instal-visual-studio-code)
+  - [2. Instal Laragon](#-2-instal-laragon)
+  - [3. Verifikasi Instalasi PHP](#-3-verifikasi-instalasi-php)
+  - [4. Instal Composer](#-4-instal-composer)
+  - [5. Konfigurasi PATH PHP (Opsional)](#-5-konfigurasi-path-php-opsional)
+  - [6. Membuat Proyek Laravel](#-6-membuat-proyek-laravel)
+  - [7. Menjalankan Server Development](#-7-menjalankan-server-development)
+- [Konfigurasi Tambahan](#-konfigurasi-tambahan)
+- [Troubleshooting](#-troubleshooting)
 
 ---
 
-## 🧱 Langkah-langkah Instalasi
+## 🚀 Apa itu Laravel?
+Laravel adalah framework PHP open-source yang menggunakan arsitektur MVC (Model-View-Controller). Fitur utamanya meliputi:
+- **Eloquent ORM** untuk manajemen database
+- **Blade Templating Engine**
+- **Artisan CLI** untuk otomatisasi tugas
+- Sistem autentikasi bawaan
+- Dukungan komunitas yang besar
 
-### ✅ 1. Instal VSCode
+---
 
-- Unduh VSCode dari [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-- Ikuti proses instalasi, jalankan aplikasi
+## 🔧 Persyaratan Sistem
+| Komponen         | Deskripsi                                                                 | Unduhan                                    |
+|------------------|---------------------------------------------------------------------------|--------------------------------------------|
+| **PHP**          | Versi 8.0.2 atau lebih baru                                              | Termasuk dalam Laragon                    |
+| **Composer**     | Dependency Manager untuk PHP                                             | [Download Composer](https://getcomposer.org) |
+| **Laragon**      | Server lokal (Termasuk Apache, MySQL, PHP)                               | [Download Laragon](https://laragon.org)   |
+| **VSCode**       | Editor kode yang direkomendasikan                                        | [Download VSCode](https://code.visualstudio.com) |
+| **Git**          | Opsional, untuk version control                                          | [Download Git](https://git-scm.com)       |
 
-### ✅ 2. Instal Laragon
+---
 
-- Unduh dari [https://laragon.org/download/](https://laragon.org/download/)
-- Jalankan installer, pilih pengaturan default, klik **Install**
-- Setelah selesai, klik **Start All** di aplikasi Laragon
+## 🛠 Langkah Instalasi
 
-### ✅ 3. Cek Instalasi PHP
+### 📥 1. Instal Visual Studio Code
+1. Kunjungi [situs resmi VSCode](https://code.visualstudio.com).
+2. Pilih versi **Windows** dan unduh installer.
+3. Jalankan file `.exe` yang telah diunduh.
+4. Ikuti panduan instalasi dengan pengaturan default.
+5. Buka VSCode setelah instalasi selesai.
 
-Buka **Command Prompt** lalu ketik:
+---
 
+### 🖥 2. Instal Laragon
+1. Unduh Laragon versi terbaru dari [laragon.org](https://laragon.org).
+2. Jalankan file `laragon-wamp.exe`.
+3. Pilih bahasa **English** dan ikuti langkah instalasi:
+   - Pilih direktori instalasi (default: `C:\laragon`).
+   - Centang opsi **Create Desktop Shortcut**.
+4. Setelah instalasi, buka Laragon dan klik **Start All** untuk mengaktifkan server.
+
+---
+
+### 🔍 3. Verifikasi Instalasi PHP
+Buka Command Prompt/PowerShell dan jalankan:
 ```bash
 php -v
