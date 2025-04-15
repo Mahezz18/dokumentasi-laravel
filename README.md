@@ -1,20 +1,6 @@
 # Panduan Instalasi Laravel di Windows
 
-## 📚 Daftar Isi
-- [Pengenalan Laravel](#-apa-itu-laravel)
-- [Persyaratan Sistem](#-persyaratan-sistem)
-- [Langkah Instalasi](#-langkah-instalasi)
-  - [1. Instal Visual Studio Code](#-1-instal-visual-studio-code)
-  - [2. Instal Laragon](#-2-instal-laragon)
-  - [3. Verifikasi Instalasi PHP](#-3-verifikasi-instalasi-php)
-  - [4. Instal Composer](#-4-instal-composer)
-  - [5. Konfigurasi PATH PHP (Opsional)](#-5-konfigurasi-path-php-opsional)
-  - [6. Membuat Proyek Laravel](#-6-membuat-proyek-laravel)
-  - [7. Menjalankan Server Development](#-7-menjalankan-server-development)
-- [Konfigurasi Tambahan](#-konfigurasi-tambahan)
-- [Troubleshooting](#-troubleshooting)
-
----
+----
 
 ## 🚀 Apa itu Laravel?
 Laravel adalah framework PHP open-source yang menggunakan arsitektur MVC (Model-View-Controller). Fitur utamanya meliputi:
