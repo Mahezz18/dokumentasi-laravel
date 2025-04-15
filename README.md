@@ -49,12 +49,9 @@ Buka Command Prompt/PowerShell dan jalankan:
 ```bash
 php -v
 
-Contoh output:
+Contoh output: PHP 8.1.10 (cli) (built: Aug  1 2022 20:17:19)
 
 ```
-PHP 8.1.10 (cli) (built: Aug  1 2022 20:17:19)
-```
-
 ![Packagist.org](images/TerminalPhp.png)
 
 ### ✅ 4. Instal Composer
